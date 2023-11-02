@@ -1,5 +1,5 @@
 from django.db import models
-from backend.validators import validate_file_extension
+from backendapi.validators import validate_file_extension
 
 
 class Technology(models.Model):
