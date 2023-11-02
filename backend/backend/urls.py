@@ -18,12 +18,14 @@ from django.contrib import admin
 from rest_framework import routers
 from django.urls import path
 from django.urls import path
-from backendapi.views import AboutListView
+from backendapi.views import AboutListView, ContactListView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'about', AboutListView, 'about')
+router.register(r'contact', ContactListView, 'contact')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about', AboutListView.as_view()),
+    path('contact', ContactListView.as_view()),
 ]
