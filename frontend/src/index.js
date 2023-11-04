@@ -1,13 +1,7 @@
-import { Repairs } from "./components/Repairs"
-import { createRoot } from "react-dom/client"
-import "./index.css"
-import { BrowserRouter } from "react-router-dom"
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-const container = document.getElementById("root")
-const root = createRoot(container)
-root.render(
-    <BrowserRouter>
-        <Repairs />
-    </BrowserRouter>
-)
+import App from './App';
 
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);
