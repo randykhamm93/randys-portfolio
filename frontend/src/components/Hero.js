@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
-import HeroButtons from './HeroButtons';
+import HeroButtons from './HeroButton';
 
 const Hero = () => {
   const theme = useTheme();

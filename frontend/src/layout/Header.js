@@ -75,7 +75,7 @@ const Header = ({ onSidebarOpen }) => {
                   display: { md: 'inline', xs: 'none' },
                 }}
               >
-                Bob Developer
+                Randy Hamm
               </Typography>
             </IconButton>
           </Link>
