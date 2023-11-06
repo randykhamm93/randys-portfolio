@@ -65,7 +65,7 @@ const HeroButtons = () => {
               },
             }}
           >
-            View My Work
+            View Projects
           </Button>
         </Box>
       </Box>
