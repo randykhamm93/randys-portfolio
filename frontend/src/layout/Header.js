@@ -9,10 +9,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import { useTheme } from '@mui/material/styles';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHub from '@mui/icons-material/GitHub';
 import MenuIcon from '@mui/icons-material/Menu';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import CustomButton from '../components/CustomButton';
 
 // Font Awesome Icons
@@ -102,16 +101,6 @@ const Header = ({ onSidebarOpen }) => {
           />
           <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
             <IconButton
-              aria-label='YouTube'
-              href='#'
-              target='_blank'
-              sx={{
-                color: theme.palette.primary.main,
-              }}
-            >
-              <YouTubeIcon fontSize='large' />
-            </IconButton>
-            <IconButton
               aria-label='LinkedIn'
               href='#'
               target='_blank'
@@ -122,14 +111,14 @@ const Header = ({ onSidebarOpen }) => {
               <LinkedInIcon fontSize='large' />
             </IconButton>
             <IconButton
-              aria-label='Instagram'
+              aria-label='GitHub'
               href='#'
               target='_blank'
               sx={{
                 color: theme.palette.primary.main,
               }}
             >
-              <InstagramIcon fontSize='large' />
+              <GitHub fontSize='large' />
             </IconButton>
           </Box>
         </Toolbar>
