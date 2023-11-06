@@ -59,7 +59,7 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a freelance web developer who builds elegant, fast, and
+              I am a web developer who builds elegant, fast, and
               scalable web applications
             </Typography>
           </Box>

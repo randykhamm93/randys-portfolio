@@ -17,9 +17,9 @@ import CustomButton from '../components/CustomButton';
 
 // Font Awesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faLaptopCode);
+library.add(faCode);
 
 
 const Header = ({ onSidebarOpen }) => {
@@ -56,7 +56,7 @@ const Header = ({ onSidebarOpen }) => {
           <Link href='/' style={{ textDecoration: 'none' }}>
             <IconButton size='large' disabled>
               <FontAwesomeIcon
-                icon={faLaptopCode}
+                icon={faCode}
                 style={{
                   color: theme.palette.primary.main,
                   height: 45,
@@ -90,7 +90,6 @@ const Header = ({ onSidebarOpen }) => {
             <CustomButton href='#about' text='About' />
             <CustomButton href='#projects' text='Projects' />
             <CustomButton href='#technologies' text='Technologies' />
-            <CustomButton href='#testimonials' text='Testimonials' />
             <CustomButton href='#contact' text='Contact' />
           </Box>
           <Divider
