@@ -102,7 +102,7 @@ const Header = ({ onSidebarOpen }) => {
           <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
             <IconButton
               aria-label='LinkedIn'
-              href='#'
+              href='https://linkedin.com/in/randall-hamm'
               target='_blank'
               sx={{
                 color: theme.palette.primary.main,
@@ -112,7 +112,7 @@ const Header = ({ onSidebarOpen }) => {
             </IconButton>
             <IconButton
               aria-label='GitHub'
-              href='#'
+              href='https://github.com/randykhamm93'
               target='_blank'
               sx={{
                 color: theme.palette.primary.main,

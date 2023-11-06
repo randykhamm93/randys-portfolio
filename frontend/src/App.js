@@ -13,8 +13,8 @@ const App = () => {
   return (
     <HelmetProvider>
       <Helmet
-        titleTemplate="%s | Bob's Programming Academy"
-        defaultTitle="Bob's Programming Academy"
+        titleTemplate="%s | Randy's Portfolio"
+        defaultTitle="Randy's Portfolio"
       />
       <ThemeProvider theme={theme}>
         <CssBaseline />
