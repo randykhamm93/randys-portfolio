@@ -8,18 +8,16 @@ import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import CustomButton from '../components/CustomButton';
 
 
 // Font Awesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GitHub } from '@mui/icons-material';
-library.add(faLaptopCode);
+library.add(faCode);
 
 const Sidebar = ({ open, onClose }) => {
   const theme = useTheme();
@@ -43,7 +41,7 @@ const Sidebar = ({ open, onClose }) => {
             <Link to='/' style={{ textDecoration: 'none' }}>
               <IconButton size='large' disabled>
                 <FontAwesomeIcon
-                  icon={faLaptopCode}
+                  icon={faCode}
                   style={{
                     color: theme.palette.primary.main,
                     height: 45,
@@ -58,7 +56,7 @@ const Sidebar = ({ open, onClose }) => {
                   flexGrow={1}
                   marginLeft='10px'
                 >
-                  Bob Developer
+                  Randy Hamm
                 </Typography>
               </IconButton>
             </Link>
@@ -73,9 +71,6 @@ const Sidebar = ({ open, onClose }) => {
             </Box>
             <Box paddingY={1}>
               <CustomButton href='#technologies' text='Technologies' />
-            </Box>
-            <Box paddingY={1}>
-              <CustomButton href='#testimonials' text='Testimonials' />
             </Box>
             <Box paddingY={1}>
               <CustomButton href='#contact' text='Contact' />
