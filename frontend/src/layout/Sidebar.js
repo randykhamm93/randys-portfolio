@@ -18,6 +18,7 @@ import CustomButton from '../components/CustomButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { GitHub } from '@mui/icons-material';
 library.add(faLaptopCode);
 
 const Sidebar = ({ open, onClose }) => {
@@ -81,19 +82,10 @@ const Sidebar = ({ open, onClose }) => {
             </Box>
             <Box>
               <Stack direction='row' spacing={1}>
-                <IconButton
-                  aria-label='YouTube'
-                  href='#'
-                  target='_blank'
-                  sx={{
-                    color: theme.palette.primary.main,
-                  }}
-                >
-                  <YouTubeIcon fontSize='large' />
-                </IconButton>
+                
                 <IconButton
                   aria-label='LinkedIn'
-                  href='#'
+                  href='https://linkedin.com/in/randall-hamm'
                   target='_blank'
                   sx={{
                     color: theme.palette.primary.main,
@@ -102,14 +94,14 @@ const Sidebar = ({ open, onClose }) => {
                   <LinkedInIcon fontSize='large' />
                 </IconButton>
                 <IconButton
-                  aria-label='Instagram'
-                  href='#'
+                  aria-label='GitHub'
+                  href='https://github.com/randykhamm93'
                   target='_blank'
                   sx={{
                     color: theme.palette.primary.main,
                   }}
                 >
-                  <InstagramIcon fontSize='large' />
+                  <GitHub fontSize='large' />
                 </IconButton>
               </Stack>
             </Box>
