@@ -4,13 +4,15 @@ from rest_framework import serializers
 
 from backendapi.models import Contact
 
+
 class ContactSerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Contact
-    fields = '__all__'
-    
+    class Meta:
+        model = Contact
+        fields = '__all__'
+
+
 class ContactListView(ListAPIView):
-  permission_classes = (permissions.AllowAny, )
-  queryset = Contact.objects.all()
-  serializer_class = ContactSerializer
-  pagination_class = None
+    permission_classes = (permissions.AllowAny, )
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+    pagination_class = None

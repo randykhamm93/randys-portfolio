@@ -6,13 +6,13 @@ from backendapi.models import Hero
 
 
 class HeroSerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Hero
-    fields = '__all__'
+    class Meta:
+        model = Hero
+        fields = '__all__'
 
 
 class HeroListView(ListAPIView):
-  permission_classes = (permissions.AllowAny, )
-  queryset = Hero.objects.all()
-  serializer_class = HeroSerializer
-  pagination_class = None
+    permission_classes = (permissions.AllowAny, )
+    queryset = Hero.objects.all()
+    serializer_class = HeroSerializer
+    pagination_class = None

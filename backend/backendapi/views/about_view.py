@@ -4,13 +4,15 @@ from rest_framework import serializers
 
 from backendapi.models import About
 
+
 class AboutSerializer(serializers.ModelSerializer):
-  class Meta:
-    model = About
-    fields = '__all__'
+    class Meta:
+        model = About
+        fields = '__all__'
+
 
 class AboutListView(ListAPIView):
-  permission_classes = (permissions.AllowAny, )
-  queryset = About.objects.all()
-  serializer_class = AboutSerializer
-  pagination_class = None
+    permission_classes = (permissions.AllowAny, )
+    queryset = About.objects.all()
+    serializer_class = AboutSerializer
+    pagination_class = None

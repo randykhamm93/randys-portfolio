@@ -6,13 +6,13 @@ from backendapi.models import Technology
 
 
 class TechnologySerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Technology
-    fields = '__all__'
+    class Meta:
+        model = Technology
+        fields = '__all__'
 
-    
+
 class TechnologyListView(ListAPIView):
-  permission_classes = (permissions.AllowAny, )
-  queryset = Technology.objects.all()
-  serializer_class = TechnologySerializer
-  pagination_class = None
+    permission_classes = (permissions.AllowAny, )
+    queryset = Technology.objects.all()
+    serializer_class = TechnologySerializer
+    pagination_class = None

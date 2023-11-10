@@ -5,14 +5,14 @@ from rest_framework import serializers
 from backendapi.models import Footer
 
 
-
 class FooterSerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Footer
-    fields = '__all__'
+    class Meta:
+        model = Footer
+        fields = '__all__'
+
 
 class FooterListView(ListAPIView):
-  permission_classes = (permissions.AllowAny, )
-  queryset = Footer.objects.all()
-  serializer_class = FooterSerializer
-  pagination_class = None
+    permission_classes = (permissions.AllowAny, )
+    queryset = Footer.objects.all()
+    serializer_class = FooterSerializer
+    pagination_class = None
