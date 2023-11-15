@@ -84,7 +84,7 @@ const Hero = () => {
                     variant='h4'
                     component='p'
                     color={theme.palette.text.secondary}
-                    align='justify'
+                    align='center'
                   >
                     {item.description}
                   </Typography>
