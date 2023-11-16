@@ -98,6 +98,8 @@ const Projects = () => {
                       '& .lazy-load-image-loaded': {
                         height: 1,
                         display: 'flex !important',
+                        border: `1px solid ${theme.palette.divider}`,
+                        borderRadius: 2,
                       },
                     }}
                   >
