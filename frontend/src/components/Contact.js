@@ -66,7 +66,7 @@ const Contact = () => {
               marginTop={4}
               marginBottom={6}
             >
-              Do you need a full-stack web developer? I would love to hear from
+              Do you need a full-stack developer? I would love to hear from
               you.
             </Typography>
           </Box>
@@ -80,7 +80,7 @@ const Contact = () => {
                     gutterBottom
                     alignItems='center'
                   >
-                    Contact details
+                    Contact
                   </Typography>
                 </Box>
                 <Box
