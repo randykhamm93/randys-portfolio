@@ -59,7 +59,7 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a software developer who builds elegant, fast, and
+              I am a software developer who builds fast and
               scalable applications
             </Typography>
           </Box>
