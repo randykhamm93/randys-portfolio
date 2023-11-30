@@ -62,50 +62,10 @@ const Footer = () => {
                       padding: 0,
                     }}
                   >
-                    <ListItemButton component='a' href='#'>
-                      <ListItemText
-                        primary={
-                          <Typography
-                            variant='body2'
-                            color={theme.palette.text.secondary}
-                          >
-                            Privacy Policy
-                          </Typography>
-                        }
-                      />
-                    </ListItemButton>
-                    <ListItemButton component='a' href='#'>
-                      <ListItemText
-                        primary={
-                          <Typography
-                            variant='body2'
-                            color={theme.palette.text.secondary}
-                          >
-                            Terms of Use
-                          </Typography>
-                        }
-                      />
-                    </ListItemButton>
                   </List>
                 </Grid>
               </Hidden>
-              <Grid container item xs={12} md={4} justifyContent='center'>
-                <List>
-                  <ListItemButton>
-                    <ListItemText
-                      primary={
-                        <Typography
-                          variant='body2'
-                          color={theme.palette.text.secondary}
-                        >
-                          Copyright &copy; {new Date().getFullYear()}{' '}
-                          {item.copyright}.
-                        </Typography>
-                      }
-                    />
-                  </ListItemButton>
-                </List>
-              </Grid>
+              
               <Grid container item xs={12} md={4} justifyContent='center'>
                 <List>
                   <ListItemButton>

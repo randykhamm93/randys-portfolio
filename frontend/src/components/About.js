@@ -59,13 +59,12 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a software developer who builds fast and
-              scalable applications
+              I am a software developer with a background in customer service and manufacturing. I took a leap of faith and decided to attend Nashville Software School and found my passion for coding.  In my free time you might find me reading a book, in the gym, playing guitar, or listening to music.
             </Typography>
           </Box>
           <Grid container spacing={4}>
             {about.map((item, i) => (
-              <Grid item xs={12} sm={6} md={3} key={i}>
+              <Grid item xs={12} sm={6} md={4} key={i}>
                 <Box
                   display='block'
                   width={1}
