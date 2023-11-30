@@ -16,11 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf import settings
+from rest_framework import routers
 from django.conf.urls.static import static
-from django.urls import path
+from django.urls import path, include
 from backendapi.views import AboutListView, ContactListView, FooterListView, HeroListView, ProjectListView, TechnologyListView
 
+router = routers.DefaultRouter(trailing_slash=False)
+
 urlpatterns = [
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path('about', AboutListView.as_view()),
     path('contact', ContactListView.as_view()),
