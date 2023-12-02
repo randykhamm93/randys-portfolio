@@ -15,7 +15,7 @@ const About = () => {
 
   const fetchAbout = () => {
     axios
-      .get('http://localhost:8000/about', {
+      .get('http://localhost:8088/about', {
         headers: {
           Accept: 'application/json',
         },
@@ -64,7 +64,7 @@ const About = () => {
           </Box>
           <Grid container spacing={4}>
             {about.map((item, i) => (
-              <Grid item xs={12} sm={6} md={4} key={i}>
+              <Grid item xs={12} sm={6} md={3} key={i}>
                 <Box
                   display='block'
                   width={1}
