@@ -21,7 +21,7 @@ const Contact = () => {
 
   const fetchContact = () => {
     axios
-      .get('http://localhost:8000/contact', {
+      .get('http://localhost:8088/contact', {
         headers: {
           Accept: 'application/json',
         },

@@ -18,7 +18,7 @@ const Projects = () => {
 
   const fetchProjects = () => {
     axios
-      .get('http://localhost:8000/projects', {
+      .get('http://localhost:8088/projects', {
         headers: {
           Accept: 'application/json',
         },

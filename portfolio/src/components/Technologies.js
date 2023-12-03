@@ -16,7 +16,7 @@ const Technologies = () => {
 
   const fetchTechnologies = () => {
     axios
-      .get('http://localhost:8000/technologies', {
+      .get('http://localhost:8088/technologies', {
         headers: {
           Accept: 'application/json',
         },

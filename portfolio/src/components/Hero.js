@@ -22,7 +22,7 @@ const Hero = () => {
 
   const fetchHero = () => {
     axios
-      .get('http://localhost:8000/hero', {
+      .get('http://localhost:8088/hero', {
         headers: {
           Accept: 'application/json',
         },
@@ -115,7 +115,7 @@ const Hero = () => {
               >
                 <Box
                   component={LazyLoadImage}
-                  src={item.image}
+                  src="/assets/images/hero-img.png"
                   alt='Background Image'
                   effect='blur'
                   height={{ xs: 'auto', md: 1 }}
