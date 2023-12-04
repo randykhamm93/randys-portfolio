@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import heroImage from '../assets/images/hero-img.png'
 
 import HeroButtons from './HeroButton';
 
@@ -115,7 +116,7 @@ const Hero = () => {
               >
                 <Box
                   component={LazyLoadImage}
-                  src="/assets/images/hero-img.png"
+                  src={heroImage}
                   alt='Background Image'
                   effect='blur'
                   height={{ xs: 'auto', md: 1 }}
