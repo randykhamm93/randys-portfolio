@@ -59,7 +59,7 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a software developer with a background in manufacturing and customer service. At 29, I decided I wanted to change careers. After some soul-searching and countless hours of researching careers, I decided that I wanted to be a software developer. Excited to get started right away, I signed myself up for an associates degree for computer science program at a local community college. Almost 2 semesters in, I found Nashville Software School and signed myself up. I graduated NSS in September of 2023. It was a roller coaster of emotions through the journey, but it was one of the best experiences of my life. I found my passion for software development and met some amazing people. In my free time you might find me reading a book, in the gym, playing guitar, or listening to music.
+              I am a software developer with a background in manufacturing and customer service. At 29, I decided I wanted to change careers. After some soul-searching and countless hours of researching careers, I found that I software development interested me the most. Excited to get started right away, I signed myself up for an associates degree for computer science program at a local community college. Almost 2 semesters in, I found Nashville Software School and signed myself up. I graduated NSS in September of 2023. It was a roller coaster ride, but an amazing experience. I found my passion for software development and met some amazing people. In my free time you might find me reading a book, in the gym, or playing guitar.
             </Typography>
           </Box>
           <Grid container spacing={4}>
