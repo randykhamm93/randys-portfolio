@@ -56,7 +56,7 @@ const Contact = () => {
               data-aos='fade-up'
               gutterBottom
             >
-              Contact
+              Let's connect
             </Typography>
             <Typography
               variant='h6'
