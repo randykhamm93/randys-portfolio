@@ -56,7 +56,7 @@ const Contact = () => {
               data-aos='fade-up'
               gutterBottom
             >
-              Reach Out
+              Contact
             </Typography>
             <Typography
               variant='h6'
@@ -66,7 +66,7 @@ const Contact = () => {
               marginTop={4}
               marginBottom={6}
             >
-              Do you need a full-stack developer? I would love to hear from
+              Do you need a developer? I would love to hear from
               you.
             </Typography>
           </Box>
@@ -80,7 +80,7 @@ const Contact = () => {
                     gutterBottom
                     alignItems='center'
                   >
-                    Contact
+                    Contact Info
                   </Typography>
                 </Box>
                 <Box
