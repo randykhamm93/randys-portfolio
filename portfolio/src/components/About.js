@@ -54,12 +54,25 @@ const About = () => {
             <Typography
               variant='h5'
               color={theme.palette.text.secondary}
-              align='center'
+              align='left'
               data-aos='fade-up'
               marginTop={4}
               marginBottom={6}
             >
-              I am a software developer with a background in manufacturing and customer service. At 29, I decided I wanted to change careers. After some soul-searching and countless hours of research, I found that software development was the choice for me due to the problem-solving nature that I was familiar with from my past work experience. <br></br>Excited to get started right away, I signed myself up for an associates degree for computer science program at a local community college. Almost 2 semesters in, I found Nashville Software School and applied. I graduated NSS with a certificate in full-stack software development almost a year later, in September of 2023. It was a roller coaster ride, but an amazing experience. I found my passion for software development and met some amazing people. <br></br>In my free time you might find me reading a book, in the gym, playing guitar, or working on a side project. I am actively seeking software development/engineering related roles. <br></br>If you or someone you know are looking needs someone with my skills near the Nashville, TN or Huntsville, AL areas, or looking for someone to work remote, lets connect!
+              I am a software developer with a background in manufacturing and customer service.
+              <br></br>
+              <br></br>
+              At the age of 29, I embarked on a career change. After soul-searching and extensive research, I discovered the problem-solving nature of software development—a quality familiar from my previous work experiences.
+              <br></br>
+              <br></br>
+              Eager to dive into this new path, I enrolled in a computer science major at a local community college. About two semesters in, I came across Nashville Software School and decided to apply. In September 2023, I graduated from NSS with a certificate in full-stack software development. It was a challenging yet incredibly rewarding experience, where I not only found my passion for software development but also connected with amazing people.
+              <br></br>
+              <br></br>
+              Beyond coding, you'll likely find me being a dad, reading a book, hitting the gym, playing guitar, or exploring the outdoors.
+              <br></br>
+              <br></br>
+              I am actively seeking software development/engineering roles in the Nashville, TN, or Huntsville, AL areas, and open to remote opportunities. If you or someone you know is in need of skills like mine, let's connect!
+
             </Typography>
           </Box>
           <Grid container spacing={4}>
