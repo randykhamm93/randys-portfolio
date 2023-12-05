@@ -18,7 +18,7 @@ const Footer = () => {
 
   const fetchFooter = () => {
     axios
-      .get('http://localhost:8000/footer', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app//footer', {
         headers: {
           Accept: 'application/json',
         },

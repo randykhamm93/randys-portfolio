@@ -19,7 +19,7 @@ const Projects = () => {
 
   const fetchProjects = () => {
     axios
-      .get('http://localhost:8088/projects', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app/projects', {
         headers: {
           Accept: 'application/json',
         },

@@ -23,7 +23,7 @@ const Hero = () => {
 
   const fetchHero = () => {
     axios
-      .get('http://localhost:8088/hero', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app/hero', {
         headers: {
           Accept: 'application/json',
         },

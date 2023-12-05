@@ -21,7 +21,7 @@ const Contact = () => {
 
   const fetchContact = () => {
     axios
-      .get('http://localhost:8088/contact', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app/contact', {
         headers: {
           Accept: 'application/json',
         },

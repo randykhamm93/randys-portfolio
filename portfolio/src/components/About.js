@@ -15,7 +15,7 @@ const About = () => {
 
   const fetchAbout = () => {
     axios
-      .get('http://localhost:8088/about', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app/about', {
         headers: {
           Accept: 'application/json',
         },

@@ -16,7 +16,7 @@ const Technologies = () => {
 
   const fetchTechnologies = () => {
     axios
-      .get('http://localhost:8088/technologies', {
+      .get('https://randys-portfolio-api-d36hj.ondigitalocean.app/technologies', {
         headers: {
           Accept: 'application/json',
         },
