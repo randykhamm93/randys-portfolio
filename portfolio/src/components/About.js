@@ -59,13 +59,13 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a software developer with a background in manufacturing and customer service.
+              I'm a software developer with a background in manufacturing and customer service.
               <br></br>
               <br></br>
-              At the age of 29, I embarked on a career change. After soul-searching and extensive research, I discovered the problem-solving nature of software development—a quality familiar from my previous work experiences.
+              At the age of 29, I embarked on a career change. After some soul-searching and extensive research, I discovered the problem-solving nature of software development—a quality familiar from my previous work experiences.
               <br></br>
               <br></br>
-              Eager to dive into this new path, I enrolled in a computer science major at a local community college. About two semesters in, I came across Nashville Software School and decided to apply. In September 2023, I graduated from NSS with a certificate in full-stack software development. It was a challenging yet incredibly rewarding experience, where I not only found my passion for software development but also connected with amazing people.
+              Eager to dive into this new path, I enrolled in a computer science major at a local community college. Two semesters in, I came across Nashville Software School and decided to apply. In September 2023, I graduated from NSS with a certificate in full-stack software development. It was a challenging yet incredibly rewarding experience, where I not only found my passion for software development but also connected with some amazing people.
               <br></br>
               <br></br>
               Beyond coding, you'll likely find me being a dad, reading a book, hitting the gym, playing guitar, or exploring the outdoors.
