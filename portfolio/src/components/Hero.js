@@ -9,7 +9,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import heroImage from '../assets/images/hero-img.png'
+import heroImage from '../assets/images/heroimg.svg'
 
 import HeroButtons from './HeroButton';
 
